@@ -1,40 +1,25 @@
-*Partie II : L'utilité de l'OLQ*
+Article 1 : Objet de la Loi
 
-Article Premier :
-    L'OLQ sert à :
-    - organiser des évenements et festivités locaux
-    - créer des centres de loisir et sportifs
-    - améliorer la vie des résidents signataires de leur zone, en rendant plus jolies les rues
-    - permettre à ses résidents de vivre correctement
+La présente loi vise à protéger la souveraineté du Listenbourg en établissant des mesures pour détecter, prévenir et contrer les activités des réseaux d'influence étrangers sur le territoire du Listenbourg.
 
-Article Second :
-    Certaines de ces OLQ peuvent être considérées comme des syndicats citoyens. Elles peuvent faire valoir leur droit auprès de la mairie.
+Article 2 : Définitions
 
-*Partie III : Réunions*
+a) Réseau d'Influence Étranger (RIE) : Tout groupe, organisation ou entité agissant dans le but de promouvoir des intérêts étrangers pouvant compromettre la sécurité nationale et la stabilité du Listenbourg.
 
-Article :
-    Il existe deux types de réunions :
-    - les réunions gestionnelles, qui servent à améliorer la gestion de l'OLQ au niveau de la municipalité et au niveau interne
-    - les réunions évenementielles, qui servent à l'organisation et au choix des activités locales.
-    Ces réunions ont lieu au moins 1 fois par mois selon la constitution.
+Article 3 : Déclaration des Activités
 
-*Partie IV : Dissolution, départ et intégration*
+a) Tout RIE opérant sur le territoire du Listenbourg doit fournir une déclaration détaillée de ses activités aux autorités compétentes.
 
-Article Premier :
-    La mairie a e droit de dissoudre l'OLQ si :
-    - elle manque de membres
-    - elle n'est pas assez active
-    - elle reçoit trop de plaintes
-    - elle a fait perdre trop d'argent à la municipalité
+Article 4 : Autorité de Surveillance
 
-Article II :
-    Lors des réunions gestionnelles, les membres de l'OLQ peuvent choisir de la dissoudre. Dans ce cas là, tous les emprunts doivent être remboursés et un compte-rendu doit être fait à la mairie.
+a) Une autorité spécifique sera désignée pour surveiller les activités des RIE.
 
-Article III :
-    Pour rejoindre une OLQ, il faut déposer une demande au bureau de la mairie et de l'OLQ.
-    Si les membres sont acceptés par l'OLQ, celle-ci doit envoyer la nouvelle liste des membres à la mairie. Ces nouveaux membres doivent accepter la constitution.
-    Sinon, ils peuvent refaire une demande 65 jours après.
+b) L'autorité aura le pouvoir d'enquêter, de recueillir des renseignements et de prendre des mesures appropriées pour contrer les activités préjudiciables.
 
-Article IV :
-    Si un membre souhaite partir il doit annoncer sa démission à l'OLQ.
-    L'OLQ ne peut pas empêcher la démission et doivent donc envoyer la nouvelle liste des membres à la mairie.
+Article 5 : Sanctions
+
+a) Des sanctions sévères seront imposées aux RIE en violation de la présente loi, y compris des amendes substantielles et l'expulsion du territoire du Listenbourg.
+
+Article 6 : Coopération Internationale
+
+a) Le Listenbourg coopérera avec d'autres nations pour échanger des informations et coordonner les efforts visant à contrer les activités des RIE à l'échelle mondiale.
