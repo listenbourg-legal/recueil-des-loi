@@ -1,2 +1,0 @@
-# Entite integration police
-
