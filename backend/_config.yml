@@ -66,7 +66,72 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
-
+# https://github.com/dimaslanjaka/hexo-seo
+seo:
+  # minify html
+  html:
+    enable: true
+    # fix invalid html
+    fix: true
+    # exclude from minify
+    exclude:
+      - "*.min.{htm,html}"
+  # minify css
+  css:
+    enable: true
+    # If you want to customize the css minifier settings, you can put below
+    # exclude css from minifying, multiple supported
+    exclude:
+      - "**/*.min.css"
+  # minify js
+  js:
+    enable: true
+    # concatenate all js into one tag
+    ## WARNING: DO NOT USING ANOTHER MINIFIER PLUGIN
+    concat: false
+    # If you want to customize the js minifier settings, you can put below
+    # exclude css from minifying, multiple supported
+    exclude:
+      - "**/*.min.js"
+    # this is terser options, you can customize minifier with terser options https://github.com/terser/terser
+    # below is config example
+    options:
+      compress:
+        dead_code: true
+      mangle:
+        toplevel: true
+        safari10: true
+  # add rich snippets on every posts and pages
+  schema:
+    article:
+      enable: true
+    breadcrumb:
+      enable: true
+    sitelink:
+      enable: true
+      searchUrl: https://www.webmanajemen.com/search?q={search_term_string}
+  # this function still under development because JAVASCRIPT HEAP MEMORY and my device is 8GB RAM
+  img:
+    enable: true
+    # fix broken images
+    broken: false
+    # default broken images
+    default: https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg
+    # broken images methods
+    # serverside : process broken images from server side (caused javascript heap out of memory, if your post large and your device has insufficient memory)
+    # clientside : process broken image from client side browser with webjs
+    onerror: serverside
+  # external links fix
+  links:
+    # enable or false
+    enable: true
+    # allowed following links, otherwise nofollow others
+    exclude:
+      - webmanajemen.com
+      - web-manajemen.blogspot.com
+  # auto generate seo friendly sitemap on http://yoursite.com/sitemap.xml
+  # forked from yoast seo
+  sitemap: true
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -75,7 +140,24 @@ index_generator:
   path: ''
   per_page: 1
   order_by: -date
-
+hexo_submit_urls_to_search_engine:
+  submit_condition: count # Submitted condition, optional value: count | period, Now only supports count
+  count: 10 # Submit the latest 10 links
+  period: 900 # Submit a link with a modification time of 900 seconds
+  google: 0 #  Whether to submit to Google, optional values: 1 | 0 (0: No; 1: Yes)
+  bing: 1 #  Whether to submit to bing, optional value: 1 | 0 (0: no; 1: yes)
+  baidu: 1 # Whether to submit to baidu, optional value: 1 | 0 (0: no; 1: yes)
+  txt_path: submit_urls.txt ## The address of the text document, the link to be pushed will be saved in this text document
+  baidu_host: https://cjh0613.github.io ## Domain name registered in Baidu webmaster platform
+  baidu_token: xxxxx ## Please note that this is your secret key, so do not publish the website source code in the public repository!
+  bing_host: https://cjh0613.github.io ## Domain name registered in Bing webmaster platform
+  bing_token: xxxxx ## Please note that this is your secret key, so do not publish the website source code in the public repository!
+  google_host: https://cjh0613.github.io ## Domain name registered in Google webmaster platform
+  google_key_file: Project.json # Store the json file of the google key in the root directory of the website (same location as the hexo _config.yml file), please do not publish the source code of the website in the public warehouse!
+  google_proxy: 0 # Set the proxy used to submit urls to Google
+  replace: 0  # Whether to replace some substrings in links, optional value: 1 | 0 (0: no; 1: yes)
+  find_what: http://cjh0613.github.io/blog
+  replace_with: https://cjh0613.com
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -84,7 +166,53 @@ tag_map:
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
-
+deploy:
+- type: cjh_google_url_submitter
+- type: cjh_bing_url_submitter
+- type: cjh_baidu_url_submitter
+search:
+  path: search.json
+  field: post
+  content: true
+  template: ./search.json
+jsonContent:
+  meta: true
+  drafts: false
+  file: content.json
+  keywords: undefined
+  dateFormat: undefined
+  pages:
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    link: true
+    permalink: true
+    excerpt: true
+    keywords: false
+    text: true
+    raw: false
+    content: false
+    author: true
+  posts:
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    link: true
+    permalink: true
+    excerpt: true
+    keywords: false
+    text: true
+    raw: false
+    content: false
+    author: true
+    categories: true
+    tags: true
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -108,9 +236,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: freemind
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
+
