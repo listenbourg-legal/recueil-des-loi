@@ -1,6 +1,8 @@
 ---
+title: pic
 categories:
   - - code_de_l_administration
+date: 2024-07-23 20:00:22
 ---
 Titre I : Introduction
 

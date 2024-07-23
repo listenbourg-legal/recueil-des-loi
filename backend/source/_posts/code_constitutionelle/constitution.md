@@ -1,6 +1,8 @@
 ---
+title: constitution
 categories:
   - - code_constitutionelle
+date: 2024-07-23 20:00:22
 ---
 	
 

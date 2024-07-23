@@ -1,6 +1,8 @@
 ---
+title: olq
 categories:
   - - code_de_l_administration
+date: 2024-07-23 20:00:22
 ---
 **Projet de Loi du Ministère à propos des organisations locales de quartier :**
 

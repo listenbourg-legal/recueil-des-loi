@@ -1,6 +1,8 @@
 ---
+title: commission de justice parlementaire
 categories:
   - - code_de_la_justice
+date: 2024-07-23 20:00:22
 ---
 **Projet de Loi Spéciale**
 
