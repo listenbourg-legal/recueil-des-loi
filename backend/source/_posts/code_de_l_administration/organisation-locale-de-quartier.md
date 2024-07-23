@@ -1,3 +1,7 @@
+---
+categories:
+  - - code_de_l_administration
+---
 **Projet de Loi du Ministère à propos des organisations locales de quartier :**
 
 *Partie Première : Création et Gestion d'une OLQ*

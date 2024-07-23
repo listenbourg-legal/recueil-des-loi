@@ -10,7 +10,19 @@ keywords:
 author: John Doe
 language: en
 timezone: ''
-
+auto_category:
+ enable: true
+ multiple: true
+ depth: 3
+ autolinker:
+    enable: true
+    newWindow: true
+    urls: true
+    email: true
+    tel: true
+    twitter: true
+    hashtag: instagram
+    className: 'test'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://listenbourg-legal.github.io/recueil-des-loi/

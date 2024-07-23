@@ -1,3 +1,7 @@
+---
+categories:
+  - - code_de_l_administration
+---
 Titre I : Introduction
 
 Article 1 : Objet de la loi

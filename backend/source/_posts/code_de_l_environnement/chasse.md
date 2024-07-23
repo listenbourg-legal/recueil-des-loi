@@ -1,3 +1,7 @@
+---
+categories:
+  - - code_de_l_environnement
+---
 Cette loi promulguera la défense animale, l'écologie , l'humanisme et les libertés fondamentales.
 En interdisant la chasse qui est pratiqué par moins d'un million de listembourgeois et cette pratique est contraire au respect des autres animaux que l'homme sachant que les animaux sont poursuivit parfois sur de très longues distances et souffrent.
 

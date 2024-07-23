@@ -1,3 +1,7 @@
+---
+categories:
+  - - code_de_l_administration
+---
 __**Préambule:**__ Ce projet de loi a pour but de casser les monopoles de grands groupes audiovisuels qui accaparent l’ensemble des licences de radio et de TNT, qui ne sont pas nécessairement utilisées, afin de tuer dans l’œuf la concurrence. Cette situation réduit l’offre et le pluralisme des opinions, indispensable dans toutes démocraties.
 
 **Article 1**
