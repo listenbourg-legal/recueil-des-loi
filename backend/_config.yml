@@ -237,7 +237,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: freemind
-
+admin:
+    deployCommand: 'cd .. && git add * */* && git rm  backend/node_modules -r && git commit -m"deploy" && git pull && git push'
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 
