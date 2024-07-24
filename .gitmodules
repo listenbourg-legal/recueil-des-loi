@@ -1,6 +1,4 @@
-[submodule "backend/themes/freemind"]
-	path = backend/themes/freemind
-	url = https://github.com/wzpan/hexo-theme-freemind.git
+
 [submodule "backend/themes/hexo-themes-freemind"]
 	path = backend/themes/hexo-themes-freemind
-	url = https://github.com/wzpan/hexo-theme-freemind.git
+	url = https://github.com/listenbourg-legal/hexo-theme-freemind
