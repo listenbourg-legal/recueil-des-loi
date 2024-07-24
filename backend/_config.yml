@@ -109,7 +109,7 @@ seo:
       enable: true
     sitelink:
       enable: true
-      searchUrl: https://www.webmanajemen.com/search?q={search_term_string}
+      searchUrl:  https://listenbourg-legal.github.io/recueil-des-loi/search?q={search_term_string}
   # this function still under development because JAVASCRIPT HEAP MEMORY and my device is 8GB RAM
   img:
     enable: true
@@ -148,11 +148,11 @@ hexo_submit_urls_to_search_engine:
   bing: 1 #  Whether to submit to bing, optional value: 1 | 0 (0: no; 1: yes)
   baidu: 1 # Whether to submit to baidu, optional value: 1 | 0 (0: no; 1: yes)
   txt_path: submit_urls.txt ## The address of the text document, the link to be pushed will be saved in this text document
-  baidu_host: https://cjh0613.github.io ## Domain name registered in Baidu webmaster platform
+  baidu_host:  https://listenbourg-legal.github.io/recueil-des-loi/ ## Domain name registered in Baidu webmaster platform
   baidu_token: xxxxx ## Please note that this is your secret key, so do not publish the website source code in the public repository!
-  bing_host: https://cjh0613.github.io ## Domain name registered in Bing webmaster platform
+  bing_host:  https://listenbourg-legal.github.io/recueil-des-loi/ ## Domain name registered in Bing webmaster platform
   bing_token: xxxxx ## Please note that this is your secret key, so do not publish the website source code in the public repository!
-  google_host: https://cjh0613.github.io ## Domain name registered in Google webmaster platform
+  google_host:  https://listenbourg-legal.github.io/recueil-des-loi/ ## Domain name registered in Google webmaster platform
   google_key_file: Project.json # Store the json file of the google key in the root directory of the website (same location as the hexo _config.yml file), please do not publish the source code of the website in the public warehouse!
   google_proxy: 0 # Set the proxy used to submit urls to Google
   replace: 0  # Whether to replace some substrings in links, optional value: 1 | 0 (0: no; 1: yes)
@@ -236,7 +236,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: freemind
+theme: listenbourg
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 
